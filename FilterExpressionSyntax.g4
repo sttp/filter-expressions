@@ -24,13 +24,13 @@
 grammar FilterExpressionSyntax;
 
 parse
- : ( filterExpressionStatementList | error ) EOF
+ : ( filterExpressionStatementList | err ) EOF
  ;
 
-error
+err
  : UNEXPECTED_CHAR
    {
-     throw RuntimeException("Unexpected character: " + $UNEXPECTED_CHAR.text);
+     panic("Unexpected character: " + $UNEXPECTED_CHAR.text);
    }
  ;
 
