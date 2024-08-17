@@ -1,4 +1,4 @@
-## STTP ([IEEE 2664](https://standards.ieee.org/project/2664.html)) Filter Expressions Grammar
+## STTP ([IEEE 2664-2024](https://standards.ieee.org/ieee/2664/7397/)) Filter Expressions Grammar
 ### Streaming Telemetry Transport Protocol
 
 <img align="right" src="sttp.png">
